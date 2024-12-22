@@ -4,3 +4,5 @@ tellraw @a [{"text": "| "},{"text":"by white_elephant_","color":"blue","underlin
 tellraw @a "| "
 tellraw @a [{"text": "| "},{"text": "本数据包使用 ","bold": true},{"text":"GNU GPL","color":"blue","underlined":true,"italic":true,"clickEvent":{"action":"open_url","value":"https://www.gnu.org/licenses/gpl-3.0.txt"}},{"text": " 协议开源","bold": true}]
 tellraw @a "--------------------"
+scoreboard objectives add dfl_enable dummy
+scoreboard players set @e dfl_enable 0
