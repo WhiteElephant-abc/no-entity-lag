@@ -14,5 +14,4 @@ function dfl:tick/kill {num:"1000"}
 function dfl:lib/entity_density
 function dfl:tick/kill_better {num:"50"}
 function dfl:lib/entity
-function dfl:tick/show_entity
 function dfl:tick/kill_tnt {num:"200"}
